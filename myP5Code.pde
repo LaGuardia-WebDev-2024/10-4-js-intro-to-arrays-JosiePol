@@ -8,6 +8,15 @@ setup = function() {
     text("🍽", i, 370)
   }
 
+var Foods = ["Kiwi", "Avocado", "Raspberries", "Lemon"];
+
+fill(0, 255, 0)
+text( Foods[0], 10, 30)
+text( Foods[1], 10, 60)
+text( Foods[2], 10, 90)
+text( Foods[3], 10, 120)
+
+text("I love these " + Foods.length + " foods very much!!", 10, 160)
 
 };
 
